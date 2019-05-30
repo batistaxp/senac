@@ -1,0 +1,162 @@
+
+        header {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(7, 56, 77);
+            padding: 0 17px
+        }
+
+        .cabecalho{
+            background-color: rgb(5, 74, 104);
+            width: 100%;
+
+           }
+             /* Formatação default dos parágrafos */
+           p{
+               font-size: 16px;
+               margin: 18px 0;
+               text-indent: 30px;
+               font-family: sans-serif;
+               text-align: justify;
+               line-height: 1.5;
+               }
+
+               h1{
+                   color: rgb(129, 13, 32);
+                   font-size: 20px;
+                   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                   margin: 0 0 18px 0;
+
+               }
+      
+
+        * {
+            box-sizing: border-box;
+            padding: 0%;
+            margin: 0%
+        }
+
+        nav {
+            color: rgb(231, 214, 214);
+            font-family: cursive;
+            font-size: 30px;
+            /* text-shadow: rgb(141, 9, 9) 2px 2px 2px; */
+            min-width: 700px;
+
+        }
+
+        .icone {
+            color: rgb(212, 212, 228);
+            font-weight: bold;
+        }
+
+        a {
+            color: aliceblue;
+            text-decoration: blue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 17px;
+            background-color: black(153, 206, 194);
+            /* border: 3px solid rgb(223, 231, 225); */
+            padding: 6px 13px;
+            border-radius: 15px;
+
+        }
+
+        #menuinferior a {
+            color: aliceblue;
+            text-decoration: blue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 17px;
+            font-size: 11px;
+            background-color: black(153, 206, 194);
+            /* border: 3px solid rgb(223, 231, 225); */
+            padding: 6px 13px;
+            border-radius: 15px;
+
+        }
+
+        .banner{
+            background-image: url(../images/adbras2.jpg);
+            height: 300px;
+            background-position: center;
+            background-size: cover ;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            /* margin: 25px 0; */
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+    
+          }
+            /* formataçaõ do textinho */
+          .banner span{
+              font-size: 32px;
+              display: block;
+              text-shadow: blue 4px 4px 3px;
+              text-align: center;
+               color: aliceblue; 
+              /* background-color: rgb(205, 205, 226); */
+              /* margin-top: 70px; */
+              
+          }
+
+          .container{
+              width: 100%;
+              max-width: 1280px;
+               /* background-color:rgb(196, 212, 196);  */
+              padding:  18px;
+              /* text-align: center; */
+              margin: 0 auto;
+           }
+          
+          
+          /* Rodapé */
+           #rodape_interno{
+
+            width: 1366px;
+            margin:0 auto;
+        }
+    
+        #social{
+            width: 34%;
+            float: left;
+    
+        }
+    
+        #social p{
+            margin-top: 30px;
+            color:rgb(8, 31, 66);
+        }
+    
+        #menuinferior{
+            width: 66%;
+            float: left;
+        }
+        #menuinferior ul{
+            margin-top: 50px;
+        }
+        #menuinferior ul li{
+            list-style: none;
+            display: block;
+            width: 13%;
+            float:right;
+            text-align: center;
+            border-right: 1px solid black;
+        }
+        #menuinferior ul li:first-child{
+            border-right: 0px none;
+        }
+        #menuinferior ul li a{
+            text-decoration: none;
+            color:black;
+        }
+        #menuinferior ul li a:hover{
+            color: rgb(46, 182, 28);
+    
+        }
+
+          
