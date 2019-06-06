@@ -1,0 +1,375 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+/* Linhas */
+.row{
+    clear: both;
+}
+
+/* Colunas */
+.bloco12{width: 100%; float: left;}
+.bloco8{width: 66.6667%; float: left;}
+.bloco4{width: 33.3333%; float: left;}
+.bloco6{width: 50%; float: left;}
+
+/* Formatação de Textos */
+h1{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: rgb(124, 3, 3);
+    margin: 20px 0px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-align: justify;
+    margin: 20px 0px;
+}
+
+/* Blocos */
+#topo{
+    background-color: rgb(19, 9, 70);
+    height: 120px;
+}
+
+#topo .bloco12{
+    margin-bottom: -4px;
+}
+
+#topo img{
+    max-width: 550px;
+}
+#banner{
+    
+    height: 380px;
+    background-image: url("../images/adbras.jpg");
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+     
+
+}
+
+#menuprincipal{
+    width: 100%;
+    height: 40px;
+    /* margin-top: 45px; */
+    background-color: rgb(252, 252, 252);
+}
+
+#menuprincipal ul li{
+    list-style: none;
+    float: right;
+    position: relative;
+    z-index: 5;
+}
+
+#menuprincipal ul li a{
+    display: block;
+    width: 113.7777778px;
+    height: 40px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    color: rgb(27, 3, 3);
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#menuprincipal ul li a:hover{
+    color: rgb(137, 255, 249);
+    background-color: rgb(138, 105, 189);
+}
+
+
+#parallax {
+    clear: both;
+    background-image: url("../images/hilsong2.jpg");
+    min-height: 400px; 
+
+    /* Efeito parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#parallax2 {
+    clear: both;
+    background-image: url("../images/agenda.jpg");
+    min-height: 400px; 
+
+    /* Efeito parallax */
+     background-attachment: fixed; 
+    background-position: center top;
+    background-repeat: no-repeat;
+     background-size: cover; 
+    text-align: center;
+}
+
+
+#parallax span{
+    font-family: sans-serif;
+    color: #FFF;
+    font-size: 50px;
+    line-height: 300px;
+}
+.texto1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(17, 219, 78);
+    font-size: 50px;
+
+}
+
+
+
+#rodape{
+    background-color: rgb(1, 5, 8);
+    height: 150px;
+    clear: both;
+}
+
+#rodape p{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+
+#menuinferior{
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+}
+
+#menuinferior ul li{
+    list-style: none;
+    float: right;
+    position: relative;
+    z-index: 5;
+    border-right: 1px solid #FFF;
+}
+
+#menuinferior ul li a{
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+#menuinferior ul li:first-child{
+    border-right: 0px none;
+}
+
+#menuinferior ul li a:hover{
+    color: #3CC;
+}
+/* Media Queries */
+@media screen and (max-width:1023px){
+    /* 500% */.bloco4{width: 50%;}
+}
+
+@media screen and (max-width:479px){
+    /* 100% */.bloco12{width: 100%;}
+}
+
+
+
+/*
+
+        header {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(3, 40, 56);
+            padding: 0 17px
+        }
+
+        .cabecalho{
+            background-color: rgb(5, 74, 104);
+            width: 100%;
+
+           }
+
+           p{
+               font-size: 16px;
+               margin: 18px 0;
+               text-indent: 30px;
+               font-family: sans-serif;
+               text-align: justify;
+               line-height: 1.5;
+               }
+
+               h1{
+                   color: rgb(129, 13, 32);
+                   font-size: 20px;
+                   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                   margin: 0 0 18px 0;
+
+               }
+      
+
+        * {
+            box-sizing: border-box;
+            padding: 0%;
+            margin: 0%
+            
+        }
+
+        nav {
+            color: rgb(231, 214, 214);
+            font-family: cursive;
+            font-size: 30px;
+            min-width: 600px;
+            
+
+        }
+
+        .icone {
+            color: rgb(180, 181, 230);
+            font-weight: bold;
+            
+        }
+
+        a {
+            color: rgb(249, 250, 253);
+            text-decoration: rgb(207, 196, 197);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 17px;
+            background-color: black(153, 206, 194);
+            padding: 6px 13px;
+            border-radius: 15px;
+            border-right: 1px solid rgb(238, 232, 232);
+
+        }
+
+        #menuinferior a {
+            color: rgb(245, 240, 240);
+            text-decoration: rgb(245, 240, 240);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 10px;
+            font-size: 14px;
+            background-color: black(153, 206, 194);
+            border: 3px solid rgb(88, 163, 233);
+            padding: 8px 13px;
+            border-radius: 15px;
+
+        }
+
+        .banner{
+            background-image: url(../images/adbras2.jpg);
+            height: 300px;
+            background-position: center;
+            background-size: cover ;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+    
+          }
+
+          .banner span{
+              font-size: 32px;
+              display: block;
+              text-shadow: blue 4px 4px 3px;
+              text-align: center;
+               color: aliceblue; 
+          
+          }
+
+          .container{
+              width: 100%;
+              max-width: 1280px;
+              padding:  18px;
+              margin: 0 auto;
+           }
+
+
+           .containertopo{
+            width: 100%;
+            
+            margin: 0 auto;
+         }
+
+         .containertopo img{
+             height: 150px;
+         }
+          
+          
+           #rodape_interno{
+
+            width: 1366px;
+            margin:0 auto;
+        }
+    
+        #social{
+            width: 25%;
+            float: left;
+    
+        }
+    
+        #social p{
+            margin-top: 30px;
+            color:rgb(146, 6, 29);
+        }
+    
+        #menuinferior{
+            width: 75%;
+            float: left;
+        }
+        #menuinferior ul{
+            margin-top: 30px;
+        }
+        #menuinferior ul li{
+            list-style: none;
+            display: block;
+            width: 14%;
+            float:right;
+            text-align: center;
+            border-right: 1px solid black;
+        }
+        #menuinferior ul li:first-child{
+            border-right: 5px none;
+        }
+        #menuinferior ul li a{
+            text-decoration: none;
+            color:black;
+        }
+        #menuinferior ul li a:hover{
+            color: rgb(46, 182, 28);
+    
+        }
+*/
+          
